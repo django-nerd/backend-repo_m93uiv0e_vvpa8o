@@ -1,0 +1,50 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [161] using StatReload
+INFO:     Started server process [163]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:38210 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:38222 - "GET /api/categories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38224 - "GET /api/subcategories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38222 - "GET /api/categories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38224 - "GET /api/subcategories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38232 - "GET /api/packages HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38232 - "GET /api/packages HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38248 - "GET /api/categories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38248 - "GET /api/subcategories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58226 - "GET /api/packages HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58234 - "GET /api/categories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38248 - "GET /api/subcategories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58226 - "GET /api/packages HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58236 - "OPTIONS /api/quotations HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58236 - "GET /api/categories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35402 - "OPTIONS /api/quotations HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35372 - "GET /api/subcategories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35386 - "GET /api/packages HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35388 - "GET /api/quotations HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58236 - "GET /api/categories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35386 - "GET /api/packages HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35372 - "GET /api/subcategories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35388 - "GET /api/quotations HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35388 - "POST /api/categories HTTP/1.1" 201 Created
+INFO:     172.20.0.1:35388 - "GET /api/categories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35386 - "GET /api/subcategories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35372 - "GET /api/packages HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35372 - "POST /api/categories HTTP/1.1" 201 Created
+INFO:     172.20.0.1:58236 - "GET /api/quotations HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35388 - "GET /api/subcategories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35386 - "GET /api/packages HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35372 - "GET /api/categories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58236 - "GET /api/quotations HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58236 - "POST /api/categories HTTP/1.1" 201 Created
+INFO:     172.20.0.1:35386 - "GET /api/quotations HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58236 - "GET /api/categories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35372 - "GET /api/subcategories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35388 - "GET /api/packages HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35388 - "OPTIONS /api/categories/6914162b3624acce319b370e HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35388 - "DELETE /api/categories/6914162b3624acce319b370e HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35388 - "GET /api/categories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35386 - "GET /api/subcategories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35372 - "GET /api/quotations HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58236 - "GET /api/packages HTTP/1.1" 200 OK
